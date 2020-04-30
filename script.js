@@ -221,7 +221,7 @@ function newrev()
 	console.log(tabrev);
 	msgtmp=calctmp(revtime);
 	lirev=window.document.createElement("li");
-	lirev.innerHTML =revtime+msgtmp;
+	lirev.innerHTML =mes+revtime+msgtmp;
 	window.document.getElementById('ol-rev').appendChild(lirev);
 	
 }
@@ -248,7 +248,7 @@ function reveil(hor)
 		}
 		if(tabrev[i][2]==1)
 		{
-			lirev.innerHTML =tabrev[i][1]+" passé ";
+			lirev.innerHTML =tabrev[0]+tabrev[i][1]+" passé ";
 		}
 		else
 		{	calctmp(hmr,hor)
