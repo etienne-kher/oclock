@@ -19,7 +19,7 @@
 			<div id="minuteur_flex">
 				<input type="number" id="minute" value="10" min="0">
 				<div class="wrapper">
-					<a href=""><span><button id="animation_button" onclick="gominuteur()">go</button></span></a>
+					<span><button id="animation_button" onclick="gominuteur()">go</button></span>
 				</div>
 				
 			</div>
